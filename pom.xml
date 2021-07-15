@@ -223,7 +223,7 @@
 				<version>2.18</version>
 				<configuration>
 					<enableAssertions>true</enableAssertions>
-					<argLine>-Xmx512m</argLine>
+					<argLine>${argLine} -Xmx2048m</argLine>
 					<systemProperties>
 						<glslang.path>${glslang.path}</glslang.path>
 					</systemProperties>
